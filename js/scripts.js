@@ -1,16 +1,30 @@
 $(document).ready(function() {
   $(".elephant").click(function() {
-    $(".sally").toggle();
-    $(".elephantDesc").toggle();
+    $(".sally").slideToggle();
+    $(".elephantDesc").slideToggle();
   });
 
   $(".mrhops").click(function() {
-    $(".bunny").toggle();
-    $(".mrhopsDesc").toggle();
+    $(".bunny").slideToggle();
+    $(".mrhopsDesc").slideToggle();
   });
 
   $(".turtle").click(function() {
-    $(".turtleimage").toggle();
-    $(".turtleDesc").toggle();
+    $(".turtleimage").slideToggle();
+    $(".turtleDesc").slideToggle();
+  });
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
+
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
+
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
   });
 });

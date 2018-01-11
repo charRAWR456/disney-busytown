@@ -1,11 +1,14 @@
 p {
   display: none;
+  height: 320px;
+  width: 320px;
+  border: 4px solid limegreen; 
 }
 
 img {
-  height: 300px;
-  width: 300px;
-  border: 4px dashed limegreen;
+  height: 320px;
+  width: 320px;
+  border: 4px solid limegreen;
 }
 
 body {
@@ -15,6 +18,38 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 40pt;
   text-shadow: 2px 2px limegreen;
   font-family: cursive;
+}
+
+h3{
+  text-align: center;
+}
+
+.btn {
+  color: white;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20pt;
+  width: 320px;
+}
+
+.green-background {
+  font-family: cursive;
+  background-color: black;
+  color: limegreen;
+}
+
+.yellow-background {
+  font-family: sans-serif;
+  background-color: lightblue;
+  color: darkblue;
+}
+
+.red-background {
+  font-family: fantasy;
+  font-weight: lighter;
+  background-color: coral;
+  color: crimson;
 }
